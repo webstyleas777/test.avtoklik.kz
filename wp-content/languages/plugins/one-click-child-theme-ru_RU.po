@@ -1,0 +1,195 @@
+# Translation of Development (trunk) in Russian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-03 07:09:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: one-click-child-theme.php:120
+msgid "Theme switched! <a href=\"%s\">Click here to edit the child stylesheet</a>."
+msgstr "Тема переключена! <a href=\"%s\">Нажмите тут для редактирования стиля дочерней темы</a>."
+
+#: one-click-child-theme.php:133
+msgid "Failed to create file: %s"
+msgstr "Ошибка при создании файла: %s"
+
+#: one-click-child-theme.php:140
+msgid "Failed to edit file: %s"
+msgstr "Ошибка при редактировании файла: %s"
+
+#: one-click-child-theme.php:146
+msgid "Repaired child theme."
+msgstr "Исправленная дочерняя тема."
+
+#: one-click-child-theme.php:150
+msgid "No template file specified."
+msgstr "Не выбран файл шаблона."
+
+#: one-click-child-theme.php:154
+msgid "Template file %s does not exist in parent theme!"
+msgstr "Файл шаблона %s отсутствует в родительской теме!"
+
+#: one-click-child-theme.php:161
+msgid "Template file %s already exists in child theme!"
+msgstr "Файл шаблона %s уже есть в дочерней теме!"
+
+#: one-click-child-theme.php:168
+msgid "Failed to duplicate file %s!"
+msgstr "Ошибка при дублировании файла %s!"
+
+#: one-click-child-theme.php:175
+msgid "<a href=\"%s\">File %s created!</a>"
+msgstr "<a href=\"%s\">Файл %s создан!</a>"
+
+#: one-click-child-theme.php:189
+msgid "Failed to delete file %s!"
+msgstr "Ошибка при удалении файла %s!"
+
+#: one-click-child-theme.php:196
+msgid "404 File not found at %s!"
+msgstr "Ошибка 404 (файл не найден) по адресу %s!"
+
+#: one-click-child-theme.php:203
+msgid "Unrecognized mimetype at %s!"
+msgstr "Не определен mime-тип в %s!"
+
+#: one-click-child-theme.php:210
+msgid "Failed to create file %s!"
+msgstr "Ошибка при создании файла: %s!"
+
+#: one-click-child-theme.php:216
+msgid "Successfully changed screenshot."
+msgstr "Скриншот успешно изменен."
+
+#: one-click-child-theme.php:233
+msgid "Make a Child Theme"
+msgstr "Создать дочернюю тему"
+
+#: one-click-child-theme.php:234
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: one-click-child-theme.php:557
+msgid "Theme directory already exists!"
+msgstr "Директория темы уже существует!"
+
+#: templates/create_child_form.php:16
+msgid "Create a Child Theme"
+msgstr "Создать дочернюю тему"
+
+#: templates/create_child_form.php:18
+msgid "Fill out this form to create a child theme based on %s (your current theme)."
+msgstr "Заполните эту форму, чтобы создать дочернюю тему на основе %s (вашей текущей темы)."
+
+#: templates/create_child_form.php:25
+msgid "Theme Name"
+msgstr "Название темы"
+
+#: templates/create_child_form.php:28
+msgid "Give your theme a name."
+msgstr "Назовите свою тему."
+
+#: templates/create_child_form.php:32
+msgid "Description"
+msgstr "Описание"
+
+#: templates/create_child_form.php:35
+msgid "Describe your theme."
+msgstr "Опишите свою тему."
+
+#: templates/create_child_form.php:39
+msgid "Author"
+msgstr "Автор"
+
+#: templates/create_child_form.php:42
+msgid "Your name."
+msgstr "Ваше имя."
+
+#: templates/create_child_form.php:47
+msgid "Create Child"
+msgstr "Создать дочернюю тему"
+
+#: templates/is_child_already.php:14
+msgid "Child theme needs repair"
+msgstr "Дочерняя тема нуждается в исправлении"
+
+#: templates/is_child_already.php:15
+msgid "Detected outdated child theme mechanism. Click the button below to attempt a one-click repair."
+msgstr "Обнаружена устаревшая дочерняя тема. Нажмите кнопку ниже, чтобы попытаться её исправить за один клик."
+
+#: templates/is_child_already.php:20
+msgid "Repair Child Theme"
+msgstr "Исправить дочернюю тему"
+
+#: templates/is_child_already.php:28
+msgid "Child files"
+msgstr "Дочерние файлы"
+
+#: templates/is_child_already.php:29
+msgid "If you wish to modify the behavior of a template file, select it and click the \"Copy Template\" button below."
+msgstr "Если вы хотите изменить файл шаблона, выберите его и нажмите кнопку «Копировать шаблон»."
+
+#: templates/is_child_already.php:35
+msgid "Template File"
+msgstr "Файл шаблона"
+
+#: templates/is_child_already.php:48
+msgid "Copy Template"
+msgstr "Копировать шаблон"
+
+#: templates/is_child_already.php:55
+msgid "Screenshot"
+msgstr "Скриншот"
+
+#: templates/is_child_already.php:56
+msgid "By default One-Click Child Theme uses the parent theme’s screenshot. You can use WordPress.com’s mshot service to replace the current child theme’s screenshot with a screenshot of your current web site’s homepage (if publicly accessible over the web)."
+msgstr "По умолчанию One-Click Child Theme использует скриншот родительской темы. Можно использовать сервис mshot от WordPress.com, чтобы заменить скриншот дочерней темы на скриншот вашей текущей главной страницы (если она доступна через Интернет)."
+
+#: templates/is_child_already.php:65
+msgid "No screenshot"
+msgstr "Нет скриншота"
+
+#: templates/is_child_already.php:70
+msgid "Current"
+msgstr "Текущий"
+
+#: templates/is_child_already.php:76
+msgid "mShot"
+msgstr "mShot"
+
+#: templates/is_child_already.php:81
+msgid "Replace Screenshot"
+msgstr "Заменить скриншот"
+
+#: templates/is_child_already.php:85
+msgid "Grandchild theme?"
+msgstr "Дочерняя тема дочерней темы?"
+
+#: templates/is_child_already.php:86
+msgid "WordPress has no formal support for theme grandchildren. No other actions currently supported in One Click Child Theme."
+msgstr "Формально WordPress не поддерживает многоуровневые дочерние темы. One Click Child Theme на данный момент не поддерживает других опций."
+
+#. Plugin Name of the plugin/theme
+msgid "One-Click Child Theme"
+msgstr "One-Click Child Theme"
+
+#. Plugin URI of the plugin/theme
+msgid "http://terrychay.com/wordpress-plugins/one-click-child-theme"
+msgstr "http://terrychay.com/wordpress-plugins/one-click-child-theme"
+
+#. Description of the plugin/theme
+msgid "Easily child theme any theme from wp-admin wp-admin without going into shell or using FTP."
+msgstr "Простое создание дочерней темы из панели управления без использования командной строки или FTP."
+
+#. Author of the plugin/theme
+msgid "tychay"
+msgstr "tychay"
+
+#. Author URI of the plugin/theme
+msgid "http://terrychay.com/"
+msgstr "http://terrychay.com/"

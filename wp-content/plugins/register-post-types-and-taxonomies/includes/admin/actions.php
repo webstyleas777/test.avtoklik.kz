@@ -1,0 +1,1 @@
+<?php// Exit if accessed directlyif ( ! defined( 'ABSPATH' ) ) exit;/** Main Actions **************************************************************/// Add page menus in the left WP Admin Menuadd_action( 'admin_menu',                                     'register_post_types_and_taxonomies__admin_menu_action'                                      );
